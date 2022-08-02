@@ -3,21 +3,14 @@
 
 static int topbar = 0;                      /* -b  option; if 0, dmenu appears at bottom     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
-static const char *fonts[] = {
-	"GohuFont Nerd Font Mono:size=19"
-};
-
-static const char col_gray2[]       = "#333333"; /* "#ffe4b5"; */
-static const char col_gray3[]       = "#ffffff";  /* "#ebdbb2,#bebebe"; */
-static const char col_gray4[]       = "#000000";
-static const char col_cyan[]        = "#444444"; /* "#deb887"; */
+static const char *fonts[] = { "GohuFont Nerd Font Mono:size=19" };
 
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*               fg         bg         */
-	[SchemeNorm] = { col_gray3, col_gray2},
-	[SchemeSel]  = { col_gray4, col_gray3},
-	[SchemeOut]  = { col_gray4, col_cyan },
+	[SchemeNorm] = { "#ebdbb2", "#282828" },
+	[SchemeSel] = { "#ebdbb2", "#928374" },
+	[SchemeOut] = { "#ebdbb2", "#d65d0e" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;

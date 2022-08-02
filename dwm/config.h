@@ -17,7 +17,7 @@ static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#282828"; /* "#ffe4b5"; */
 static const char col_gray3[]       = "#ebdbb2";  
 static const char col_gray4[]       = "#000000";
-static const char col_cyan[]        = "#444444"; /* "#deb887"; */
+static const char col_cyan[]        = "#928374"; /* "#deb887"; */
 
 /* static const char col_gray1[]       = "#222222"; */
 /* static const char col_gray2[]       = "#ffe4b5"; */
