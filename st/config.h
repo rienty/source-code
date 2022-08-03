@@ -98,7 +98,7 @@ float alpha = 0.8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	/* 8 normal colors */
+  	/* 8 normal colors */
 
 	[0] = "#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
 	[1] = "#cc241d", /* red     */
@@ -128,7 +128,7 @@ unsigned int defaultfg = 15;
 unsigned int defaultbg = 0;
 unsigned int defaultcs = 15;
 static unsigned int defaultrcs = 257;
-
+	
 /*
  * Default style of cursor
  * 0: blinking block
