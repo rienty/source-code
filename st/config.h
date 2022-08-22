@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "TerminessTTF Nerd Font:size=20:antialias=true:autohint=true";
+static char *font = "TerminessTTF Nerd Font:size=19:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
